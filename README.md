@@ -1,6 +1,8 @@
 # chrepl example
 
-First, `git clone (this repo)` and `cd` into this project.
+First, install chrepl in Chrome from the [Web Store](https://chrome.google.com/webstore/detail/chrepl/ablpgchfbbfachdiakmieocbdgflgfjj).
+
+Next, `git clone (this repo)` and `cd` into this project.
 
 Then, run `clj -A:fig:build` in this project.
 
