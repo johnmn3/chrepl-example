@@ -1,0 +1,13 @@
+^{:watch-dirs ["src"]
+  :css-dirs ["resources/public/css"]
+  :ring-server-options {:port 4999}
+  :connect-id {:fwbuild "app.chrepl"}
+  :open-url false
+  :validate-config false}
+{:main ex.core
+ :output-to     "resources/public/compiled/content-script/dev-main.js"
+ :output-dir    "resources/public/compiled/content-script"
+ :asset-path    "compiled/content"
+ :optimizations :none
+ :source-map true
+ :pretty-print  true}
